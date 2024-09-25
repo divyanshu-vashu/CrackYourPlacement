@@ -5,39 +5,7 @@ using namespace std;
 
 class Solution {
 public:
-    // bool validate(vector<int> &arr){
-    //     int n=arr.size();
-    //     for(int i=0;i<n;i++){
-    //         if(!(arr[i]<=26 && arr[i]>=1)){
-    //             return false;
-    //         }
-    //     }
-    //     return true;
-    // }
-    // int f(vector<int> arr,vector<vector<int>> &ans){
-    //     if(validate(arr)){
-    //         ans.push_back(arr);
-    //     }
-    //     vector<int > temp(arr.size()-1);
-    //     for(int i=1;i<arr.size();i++){
-    //         temp[i-1]=arr[i-1]+arr[i];
-    //         f(temp,ans);
-    //     }
-    //     return ans.size();
-    // }
-
-    // int numDecodings(string s) {
-    //     int n=s.length();
-    //     vector<int> arr(n);
-    //     vector<vector<int>> ans;
-
-    //     for(int i=0;i<n;i++){
-    //         arr[i]=s[i]-'0';
-    //     }
-        
-    //     return f(arr,ans);
-
-    // }
+    
     int numDecodings(string s) {
         int n= s.length();
         if(n==0 || s[0]=='0') return 0;
