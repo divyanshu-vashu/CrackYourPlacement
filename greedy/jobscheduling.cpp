@@ -103,3 +103,14 @@ int main()
 
 
 // } Driver Code Ends
+/*
+
+// Sort with a custom comparator
+    sort(a.begin(), a.end(), [](const pair<int, int> &p1, const pair<int, int> &p2) {
+        // Sort by the first element in increasing order
+        // If the first elements are equal, sort the second element in decreasing order
+        if (p1.first == p2.first)
+            return p1.second > p2.second;
+        return p1.first < p2.first;
+    });
+*/
