@@ -8,7 +8,7 @@ public:
     void gameOfLife(vector<vector<int>>& board) {
         int m = board.size();
         int n = board[0].size();
-        vector<vector<int>> ans(m, vector<int>(n, 0));
+        vector<vector<int>> ans( m, vector<int>(n, 0));
         for (int i = 0; i < m ;i++) {
             for (int j = 0; j < n; j++) {
                 int lu = (i - 1 >= 0 && j - 1 >= 0) ? board[i - 1][j - 1] : 0;
