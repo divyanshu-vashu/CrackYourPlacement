@@ -23,6 +23,9 @@ class LearnMyTuple:
         self.my_tuple = (1, "name", 5.8)  # Store the tuple in the instance variable
         print(self.my_tuple)
 
+    def typeis(self):
+        print("the data type is tuple")
+
 class LearnMyList:
     def __init__(self):
         self.my_list=[99,8,5,9,2,10,6]

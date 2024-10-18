@@ -5,6 +5,6 @@ y=10
 if x is y:
     print(True)
 if a is b:
-    print(True)
+    print("a-b ",True)
 else:
-    print(False)
+    print("a-b ",False)
