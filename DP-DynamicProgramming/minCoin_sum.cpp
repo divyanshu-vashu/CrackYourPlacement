@@ -1,10 +1,13 @@
-//{ Driver Code Starts
+
 #include <iostream>
 #include<vector>
+#include <sstream>
+#include <climits>
+#include <algorithm>
 using namespace std;
 
 
-// } Driver Code Ends
+
 
 class Solution {
 
@@ -64,38 +67,5 @@ class Solution {
         
         // If dp[sum] is still INT_MAX, it means sum cannot be formed
         return dp[sum] == INT_MAX ? -1 : dp[sum];
-    }
-    
-    
-    
-    
+    } 
 };
-
-
-//{ Driver Code Starts.
-
-int main() {
-    string ts;
-    getline(cin, ts);
-    int t = stoi(ts);
-    while (t--) {
-        string ks;
-        getline(cin, ks);
-        int k = stoi(ks);
-        vector<int> arr;
-        string input;
-        getline(cin, input);
-        stringstream ss(input);
-        int number;
-        while (ss >> number) {
-            arr.push_back(number);
-        }
-        Solution obj;
-        int res = obj.minCoins(arr, k);
-        cout << res << endl;
-        cout << "~" << endl;
-    }
-    return 0;
-}
-
-// } Driver Code Ends
