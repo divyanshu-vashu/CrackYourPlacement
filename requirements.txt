@@ -1,0 +1,11 @@
+numpy==1.26.0             # Efficient numerical computations
+scipy==1.11.3             # Advanced algorithms for optimization, integration, etc.
+networkx==3.1             # Graph and network algorithms
+pandas==2.1.3             # Data manipulation and analysis
+matplotlib==3.8.1         # Data visualization
+sympy==1.12               # Symbolic mathematics (useful for theoretical DSA)
+heapdict==1.0.1           # Heap-based priority queue implementation
+sortedcontainers==2.5.0   # Sorted data structures
+bitarray==2.8.2           # Efficient bit-level operations
+trie==0.3.6               # Trie (prefix tree) implementation
+intervaltree==3.1.0       # Interval tree for range queries
